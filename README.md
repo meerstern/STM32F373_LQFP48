@@ -27,7 +27,7 @@ Nucleo等の評価ボードが発売されていない48ピンICの変換基板�
 ## 使用可能MPU
   * STM32F373C8XX ROM64KB,  RMA16KB [Digikey Link][1]
   * STM32F373CBXX ROM128KB, RMA24KB [Digikey Link][2]
-  * STM32F373CCXX ROM256KB, RAM32KB [Digikey Link][3]
+  * STM32F373CCXX ROM256KB, RAM32KB [Digikey Link][3]  
 ※上記の全MPUで動作確認している訳ではありません。
 
 
