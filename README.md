@@ -19,17 +19,24 @@ Nucleo等の評価ボードが発売されていない48ピンICの変換基板�
   * VDD及びVDDはそれぞれ1つのピンにまとめています。
   * アナログピンはVSSA、VDDAをジャンパするとVDDとVSSからそれぞれ供給されます。
   * VDDへ電源を供給するとLED1が点灯します。
-  * SWDピンが出ているため、STLinkで接続して書き込みします。
-  * SWDピンはNucleo等のSTLinkのピン配置と同じ順序です。
   * BOOT0のピンヘッダがあり、簡単にモード切り替え可能です。
   * タクトスイッチを取り付けることでリセットボタンが実装可能です。
 
 ## 使用可能MPU
-  * STM32F373C8XX ROM64KB,  RMA16KB [Digikey Link][1]
-  * STM32F373CBXX ROM128KB, RMA24KB [Digikey Link][2]
+  * STM32F373C8XX ROM64KB,  RAM16KB [Digikey Link][1]
+  * STM32F373CBXX ROM128KB, RAM24KB [Digikey Link][2]
   * STM32F373CCXX ROM256KB, RAM32KB [Digikey Link][3]  
 ※上記の全MPUで動作確認している訳ではありません。
 
+
+## 書き込み方法/使用方法
+  * アナログピンはVSSA、VDDAをジャンパさせます。
+  * BOOTピンを0へセットします。
+  * SWDピンが出ているため、STLinkで接続して書き込みします。
+  * SWDピンはNucleo等のSTLinkのピン配置と同じ順序です。
+  * 電源を供給し、NucleoやSTLinkV2プログラマ等を使用してSTLinkUtility等から書き込んでください。  
+  
+<img src="https://github.com/meerstern/STM32F373_LQFP48/blob/master/stm32fswd.png" width="360">
 
 License - MIT
 
