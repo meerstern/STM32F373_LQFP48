@@ -46,4 +46,4 @@ License - MIT
 [1]: http://www.digikey.jp/product-detail/ja/stmicroelectronics/STM32F373C8T6/497-13306-ND/3660415 "*1"
 [2]: http://www.digikey.jp/product-detail/ja/stmicroelectronics/STM32F373CBT6/497-13309-ND/3660416 "*2"
 [3]: http://www.digikey.jp/product-detail/ja/stmicroelectronics/STM32F373CCT6/497-13251-ND/3648271 "*3"
-[4]: https://www.switch-science.com/catalog/3139/　"*4"
+[4]: https://www.switch-science.com/catalog/3139/ "*4"
